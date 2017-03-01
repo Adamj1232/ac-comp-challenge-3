@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Comp 3</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="static3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class="main">
+      <aside class="side-menu">
+        <div class="menu-profile-main">
+          <img class="user-pic" src="images/TylerDurdenOptimized.jpg" alt="badass picture of The Narrator (Tyler Durden) from Fight Club">
+          <p class="user">Tyler Durden<img src='images/arrow.png' class='user-arrow'></p>
+        </div>
+        <div class="main-section">
+          <h2>Main</h2>
+          <ul>
+            <li><img class="main-icon" src="images/home.png" alt="House icon">HOME</li>
+            <li><img class="main-icon" src="images/jobs.png" alt="Briefcase icon">JOBS</li>
+            <li><img class="main-icon" src="images/resume.png" alt="Resume icon">RESUMES</li>
+            <li><img class="main-icon" src="images/clipboard.png" alt="Clipboard icon">TASKS</li>
+            <li><img class="main-icon" src="images/calendar_white.png" alt="Calendar icon">CALENDAR</li>
+          </ul>
+        </div>
+        <div class="admin-section">
+          <h2>Admin</h2>
+          <ul>
+            <li><img class="admin-icon" src="images/profile_white.png" alt="Person icon">USERS</li>
+            <li><img class="admin-icon" src="images/location.png" alt="location icon">LOCATIONS</li>
+            <li><img class="admin-icon" src="images/networking.png" alt="Workflow icon">WORKFLOWS</li>
+            <li><img class="admin-icon" src="images/party.png" alt="professional party icon">JOB BOARDS</li>
+            <li><img class="admin-icon" src="images/social.png" alt="social icon">SOCIAL</li>
+          </ul>
+        </div>
+        <form class="check-form">
+          <h2>Categories</h2>
+          <div class="checkboxes">
+            <input class="checkbox admincheck" type="checkbox">
+            <label >Administrative</label>
+          </div>
+          <div class="checkboxes">
+            <input class="checkbox designcheck" type="checkbox">
+            <label>Design</label>
+          </div>
+          <div class="checkboxes">
+            <input class="checkbox execcheck" type="checkbox" checked="checked">
+            <label>Executive</label>
+          </div>
+          <div class="checkboxes">
+            <input class="checkbox humancheck" type="checkbox">
+            <label>Human Resources</label>
+          </div>
+        </form>
+      </aside>
+      <section class="main-content">
+        <header>
+          <article class="top-menu">
+            <div class="hamburger-menu icon-div">
+              <img class="menu-icon" src="images/hamburger.png" alt="Main menu icon">
+            </div>
+            <div class="search-bar icon-div">
+              <img class="menu-icon" src="images/search.png" alt="Magnifying glass search icon">
+              <input class = 'search-input' type="search" placeholder="Find your next job!">
+            </div>
+            <div class=" icon-top"><img class='profile' src="images/profile.png"></div>
+            <div class=" icon-top"> <img class='calendar' src="images/calendar.png"></div>
+            <div class=" icon-top"><img class='squares' src="images/squares.png"></div>
+          </article>
+          <article class="job-overview">
+            <figure class='user-pic-name'>
+              <img class="user-pic-mobile" src="images/TylerDurdenOptimized.jpg" alt="badass picture of The Narrator (Tyler Durden) from Fight Club">
+              <figcaption class="user-mobile">Tyler Durden</figcaption>
+            </figure>
+            <div class='title-sector'>
+              <div class='left-title'>
+                <h1 class="job-title">Life Coach</h1>
+                <section class="location-wrap">
+                  <img class="location-header" src="images/location-header.png" alt="location icon">
+                  <h2 class="job-location">Wilmington, DE -</h2>
+                  <a class="preview" href="">Checkout this job</a>
+                </section>
+              </div>
+              <div class="header-icons">
+                <div class="open-icon">
+                  <img class="active-dot" src="images/green-circle.png" alt='greendot showing the job listing is available'>
+                  <p>OPEN</p>
+                </div>
+                <button class="icon-btn">
+                  <img class="button-icon" src="images/bookmark.png" alt="bookmark icon">
+                </button>
+                <button class="icon-btn">
+                  <img class="button-icon" src="images/pencil.png" alt="pencil icon">
+                </button>
+                <button class="icon-btn">
+                  <img class="button-icon" src="images/mail.png" alt="envelope icon">
+                </button>
+              </div>
+            </div>
+            <nav>
+              <ul class="header-list">
+                <li>SUMARY</li>
+                <li>APPLICANTS</li>
+                <li>JOB BOARD</li>
+                <li>INTERVIEWS</li>
+                <li>ACTIVITY</li>
+                <li>BROADCAST</li>
+                <li>NOTIFICATIONS</li>
+              </ul>
+            </nav>
+          </article>
+        </header>
+        <section class="stats">
+          <article class="graph-wrap">
+            <div class="circle-graphs-div">
+              <div class="graph-div">
+                <div class="circle-graph applicants">
+                  <span class="number">62</span>
+                  <span class="circle-text">Applicants</span>
+                </div>
+                <div class="circle-graph interviews">
+                  <span class="number">558</span>
+                  <span class="circle-text">Interviews</span>
+                </div>
+                <div class="circle-graph forwards">
+                  <span class="number">1,497</span>
+                  <span class="circle-text">Forwards</span>
+                </div>
+              </div>
+              <button class="graph-btn">TOTALS • Out of 5,231 Views</button>
+            </div>
+            <article class="graph">
+              <img class="bar-graph" src="images/bar-graph.png" alt="bar graph showing applicants per day">
+              <button class="graph-btn">APPLICANTS/DAY</button>
+            </article>
+          </article>
+        </section>
+        <div class="arrow-div">
+          <img class="arrow" src="images/upArrow.png" alt="up arrow for collapsing">
+        </div>
+        <section class="job">
+          <table class="description">
+            <thead class="table-header">
+              <tr>
+                <th class="table-top">
+                  <p>Job Description</p>
+                  <button class="edit-btn"><img class="edit-icon" src="images/pencil.png" alt="pencil icon">Edit</button>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="table">
+              <tr>
+                <td class="column1">POSITION TITLE</td>
+                <td class="column2">Customer Service Representative</td>
+              </tr>
+              <tr>
+                <td class="column1">LOCATION</td>
+                <td class="column2">Wilmington, DE</td>
+              </tr>
+              <tr>
+                <td class="column1">EMPLOYMENT TYPE</td>
+                <td class="column2">Full-time</td>
+              </tr>
+              <tr>
+                <td class="column1">EXPERIENCE</td>
+                <td class="column2">Expert</td>
+              </tr>
+              <tr>
+                <td class="column1">STATUS</td>
+                <td class="column2">Available</td>
+              </tr>
+              <tr>
+                <td class="column1">DESCRIPTION</td>
+                <td class="column2">Where do you need to think for yourself? When we begin to cultivate awareness of our thoughts and emotions, we begin to see just how much we live according to other people’s and society’s beliefs and actions. Don’t get upset by this. Just get in touch with how you really think and feel inside and begin to express your authenticity.</td>
+              </tr>
+              <tr>
+                <td class="column1">HIRING LEADS</td>
+                <td class="column2"><img class="lead" src="images/Tyler-durdan-ed.jpg" alt="Edward Norton as Tyler Durdan">Tyler Durdan</td>
+              </tr>
+              <tr>
+                <td class="column1">APPROVED SALARY</td>
+                <td class="column2">$150,000</td>
+              </tr>
+            </tbody>
+          </table>
+          <aside class="social-section">
+            <div class="social-btn-div">
+              <button class="facebook social-btn"><img class="btn-icon" src="images/facebook-icon.png" alt="fIcon link to Facebook"><p class="btn-text">Post to Facebook</p></button>
+              <button class="twitter social-btn"><img class="btn-icon" src="images/twitter-icon.png" alt="Icon link to Twitter"><p class="btn-text">Tweet this Job</p></button>
+              <button class="linkedin social-btn"><img class="btn-icon" src="images/linkedin-icon.png" alt="Icon link to Linked in"><p class="btn-text">Post to Linkedin</p></button>
+            </div>
+            <article class="share">
+              <div class="header-share">
+                <img class="btn-icon-social" src="images/globe.png" alt="globe icon">
+                <h4>Link to this Job</h4>
+              </div>
+              <p>Use the link below to access the posting for this job directly.</p>
+              <section class="input-section">
+                <input type="text" value="http://www.example.com">
+                <button>Copy</button>
+              </section>
+            </article>
+            <article class="share">
+              <section class="header-share">
+                <img class="btn-icon-social" src="images/widget-icon.png" alt="widget app icon">
+                <h4>Use the Button Widget</h4>
+              </section>
+              <p>The widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+              <section class="input-section">
+                <input type="text" value="<script embedMe!!>">
+                <button>Copy</button>
+              </section>
+            </article>
+            <article class="share" id='uploadEmail'>
+              <section class="header-share">
+                <img class="btn-icon-social" src="images/plane.png" alt="paper plane icon">
+                <h4>Upload Resumes by Email</h4>
+              </section>
+              <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+              <section class="input-section">
+                <input id='input-email' type="text" value="WeMakeSoap@hotmail.com">
+              </section>
+            </article>
+          </aside>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
