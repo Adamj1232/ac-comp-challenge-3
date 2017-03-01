@@ -180,6 +180,7 @@ nav li {
 .search-input {
   width: 100%;
   padding: 5px 0px;
+  border: none;
 }
 
 .search-bar {
@@ -812,7 +813,7 @@ border-left-color: #B667AC;
 
   .main-section,
   .admin-section {
-    padding: 20px 0;
+    padding: 20px 0 0;
     border-bottom: solid 1px #DBE5EC;
   }
 
@@ -843,10 +844,10 @@ border-left-color: #B667AC;
   .stats {
     max-height: 430px;
   }
+
   .graph-div {
     padding: 0px;
   }
-
 }
 
 @media screen and (min-width: 1080px){
