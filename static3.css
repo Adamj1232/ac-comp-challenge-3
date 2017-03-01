@@ -209,7 +209,7 @@ nav li {
   border-bottom: 3px solid #e4e9ed;
 }
 
-.location-wrap {
+.location-section {
   display: flex;
   align-items: center;
 }
@@ -365,10 +365,6 @@ border-left-color: #B667AC;
   margin: 0 auto 15px auto;
   width: 85%;
   height: 85%;
-}
-
-.btn-wrap {
-  display: none;
 }
 
 .graph {
@@ -650,7 +646,7 @@ border-left-color: #B667AC;
     padding-bottom: 40px;
   }
 
-  .graph-wrap {
+  .circlegraph-wrap {
     display: flex;
     flex-direction: row;
     max-height: 330px;
