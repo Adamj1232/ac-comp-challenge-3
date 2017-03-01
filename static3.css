@@ -81,7 +81,7 @@ nav li {
 }
 
 .menu-profile-main {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #DBE5EC;
   padding: 25px 0;
   font-size: .9em;
 }
@@ -174,7 +174,7 @@ nav li {
 .top-menu {
   display: flex;
   background-color: #ffffff;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #DBE5EC;
 }
 
 .search-input {
@@ -296,7 +296,7 @@ nav li {
   display: block;
   margin: 20px auto 10px auto;
   padding: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #a9b0ba;
   border-radius: 25px;
   color: #5c6375;
@@ -392,7 +392,7 @@ border-left-color: #B667AC;
 
 .description {
   margin: 50px auto 40px auto;
-  border-bottom: 3px solid #e7ecef
+  border-bottom: 3px solid #e7ecef;
 }
 
 .table {
@@ -481,7 +481,7 @@ border-left-color: #B667AC;
 .share {
   margin: 15px 10px;
   padding: 10px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #DBE5EC;
 }
 
 .share input {
@@ -557,7 +557,7 @@ border-left-color: #B667AC;
     align-items: center;
     padding: 15px 15px;
     display: unset;
-    border-left: 1px solid #000000;
+    border-left: 1px solid #DBE5EC;
   }
 }
 
@@ -817,7 +817,7 @@ border-left-color: #B667AC;
   .main-section,
   .admin-section {
     padding: 20px 0;
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px #DBE5EC;
   }
 
   .admin-section ul,
